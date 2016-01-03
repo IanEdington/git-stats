@@ -1,4 +1,8 @@
 #!/bin/bash
+# Tiny script to generate git statistics
+# Author: https://github.com/esc
+# From https://github.com/Naereen/git-stats/blob/master/git-stats.sh
+
 LOGOPTS=()
 END_AND_BEGIN=()
 #argument parsing
@@ -28,15 +32,19 @@ done
 
 # Test if the directory is a git
 git branch &> /dev/null || exit 3
-echo "Number of commits per author:"
+
+echo -e "$(basename $0): do statistics on this git repository."
+echo -e "  From https://github.com/esc/git-stats/"
+echo -e "\nNumber of commits per author:"
+
 git --no-pager shortlog "${END_AND_BEGIN[@]}" -sn --all
 AUTHORS="$(git shortlog "${END_AND_BEGIN[@]}" -sn --all | cut -f2 | cut -f1 -d' ')"
 
-longline='----------------------------------------------------------------------------------------------------------'
+longtiret='----------------------------------------------------------------------------------------------------------'
 
 for a in $AUTHORS
 do
-    echo -e "----------------${longline:0:${#a}}"
+    echo -e "\n----------------${longtiret:0:${#a}}"
     echo -e "Statistics for: $a"
     echo -n "  - Number of files changed: "
     git log "${LOGOPTS[@]}" "${END_AND_BEGIN[@]}" --all --numstat --format="%n" --author="$a" | grep -v -e "^$" | cut -f3 | sort -iu | wc -l
