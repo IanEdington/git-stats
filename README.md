@@ -1,4 +1,4 @@
-## git-stats
+## ``git-stats``
 ### *« Who did what in my git repository ?»*
 Simply execute the bash script in a Git folder, to have a summary of statistics per author.
 
@@ -27,7 +27,16 @@ Statistics for: Batman
 - Number of merges: 0
 ```
 
-## License
+## How to use it?
+### Installation
+Clone the repository, copy the [script (git-stats)](./git-stats) somewhere in your PATH (e.g., ``~/.local/bin/``):
+
+```bash
+$ wget https://raw.githubusercontent.com/Naereen/git-stats/master/git-stats
+$ cp git-stats /path/to/a/directory/in/your/PATH/
+```
+
+## :scroll: License
 Published under the terms of the [MIT license](http://lbesson.mit-license.org/).
 
 [![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/git-stats/README.md?pixel)](https://github.com/Naereen/git-stats/)
