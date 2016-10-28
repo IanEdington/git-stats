@@ -36,7 +36,14 @@ $ wget https://raw.githubusercontent.com/Naereen/git-stats/master/git-stats
 $ cp git-stats /path/to/a/directory/in/your/PATH/
 ```
 
-## :scroll: License
-Published under the terms of the [MIT license](http://lbesson.mit-license.org/).
+## :scroll: License [![GitHub license](https://img.shields.io/github/license/Naereen/git-stats.svg)](https://github.com/Naereen/git-stats/blob/master/LICENSE)
+Published under the terms of the [MIT license](http://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
+© [Lilian Besson](https://GitHub.com/Naereen), 2016.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/git-stats/README.md?pixel)](https://github.com/Naereen/git-stats/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/git-stats/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/git-stats/README.md?pixel)](https://GitHub.com/Naereen/git-stats/)
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
+
+[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
