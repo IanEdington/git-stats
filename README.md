@@ -32,8 +32,9 @@ Statistics for: Batman
 Clone the repository, copy the [script (git-stats)](./git-stats) somewhere in your PATH (e.g., ``~/.local/bin/``):
 
 ```bash
-$ wget https://raw.githubusercontent.com/Naereen/git-stats/master/git-stats
-$ cp git-stats /path/to/a/directory/in/your/PATH/
+$ wget https://raw.githubusercontent.com/Naereen/git-stats/master/git-stats.sh
+$ chmod +x git-stats.sh
+$ cp git-stats.sh /path/to/a/directory/in/your/PATH/git-stats
 ```
 
 ## :scroll: License [![GitHub license](https://img.shields.io/github/license/Naereen/git-stats.svg)](https://github.com/Naereen/git-stats/blob/master/LICENSE)
